@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family:'Vina Sans' ;
+    src: url(https://fonts.google.com/specimen/Vina+Sans);
+}
+html {
+    scroll-behavior: smooth;
+    background-color:black;
+    margin-top:5px;
+}
+.header{
+    border: double #ffd700;
+    margin-top: 5px;
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Users/thushara/Documents/Thushara/SMIT/PROJECTS/Departmental_website/images/background.jpeg);
+    background-position : center;
+    background-size : cover;
+    position : relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 6s;
+}
+nav img{
+    width:250px;
+    height:100px;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:#ffd700;
+    display:block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    content:'';
+    width:100%;
+}
+.text-box{
+    width:100%;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center; 
+}
+.text-box h1{
+    font-size: 59px;
+}
+.text-box p{
+    font-size:20px;
+    margin:10px 0 40px;
+    color:#fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid#fff ;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+}
+.hero-btn:hover{
+    border:1px solid black;
+    background: #ffd700;
+    transition:0.5s;
+}
+.hero-btn:hover{
+    color:black;
+}
+
+/*Council*/
+.Council{
+    border: double #ffd700;
+    margin-top: 20px;
+    background-color: black;
+    width:100%;
+    text-align: center;
+}
+h1{
+    color:#fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:#fff;
+    font-size:14px;
+    font-weight:300;
+    line-height: 22px;
+}
+.council-desc{
+    margin-bottom: 40px;
+}
+.member-col{
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items at the top */
+    gap: 10px; /* Gap between image and paragraph box */
+    /* border-style: dotted;
+    border-color: white; */
+    /* width:1000px;
+    height:500px;
+    flex-wrap: wrap;
+    margin-top:10px;
+    margin-left: 150px;
+    margin-bottom: 5px; */
+}
+
+h3{
+    color:#fff;
+}
+h4{
+    color:#fff;
+}
+.member-col img{
+    margin-top:50;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    border-color: #fff;
+    border-width: 5px;
+    border-style: double;
+    height:450px;
+    display:flex;
+    width:350px;
+}
+.paragraph-box {
+    flex: 1; 
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 5px;
+    border-style: double;
+    box-shadow: rgba(255,215,0, 0.8) -2.5px 2.5px, rgba(255,215,0, 0.8) -5px 5px, rgba(255,215,0, 0.8) -12.5px 12.5px, rgba(255,215,0, 0.8) -15px 15px, rgba(255,215,0, 0.8) -17.5px 17.5px;
+    line-height: 1.2;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 100px;
+    padding: 5px;
+    position: relative;
+}
+.paragraph-box h3 {
+    color:#fff;
+}
+.paragraph-box h4 {
+    color:#fff;
+}
+
+.paragraph-box p {
+    margin: 0;
+    text-align: center;
+    color:#fff;
+    font-size:14px;
+    font-weight:300;
+    line-height: 22px;
+}
+.Contact{
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Vina Sans' sans-serif;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: Capra;
+    font-size: 50px;
+    font-weight: 600;
+}
+.logos{
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+}
+.logos img{
+    height: 50px;
+    width:50px;
+    margin: 10px;
+}
