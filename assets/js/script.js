@@ -17,3 +17,12 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+// script.js
+const animateText = document.querySelector('.Council');
+
+const observerOptions = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.5, // Adjust as needed
+};

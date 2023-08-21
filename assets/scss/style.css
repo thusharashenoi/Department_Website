@@ -99,9 +99,9 @@ nav img{
 
 /*Council*/
 .Council{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/design.gif);
     border: double #ffd700;
     margin-top: 20px;
-    background-color: black;
     width:100%;
     text-align: center;
 }
@@ -181,6 +181,7 @@ h4{
     line-height: 22px;
 }
 .Contact{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/design.gif);
     background-color: black;
     margin-top: 20px;
     margin-bottom: 20px;
