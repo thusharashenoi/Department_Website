@@ -16,7 +16,7 @@ html {
     margin-top: 5px;
     min-height:100vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Users/thushara/Documents/Thushara/SMIT/PROJECTS/Departmental_website/images/background.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../assets/images/background.jpeg);
     background-position : center;
     background-size : cover;
     position : relative;
