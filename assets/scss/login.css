@@ -1,0 +1,22 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: black;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, black, black);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(0, 0, 0),black)
+        
+    }
+.inner-custom {
+    /* fallback for old browsers */
+background: black;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to left, black, black);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to left, rgb(0, 0, 0),blue);
+
+}
